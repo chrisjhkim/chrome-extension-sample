@@ -21,8 +21,11 @@
       "48": "images/icon-48.png",
       "128": "images/icon-128.png"
     },
-    "default_title": "Click Me"   // optional, when the user holds their mouse pointer over the extension's icon in the toolbar
-    
+    "default_title": "Click Me",   // optional, when the user holds their mouse pointer over the extension's icon in the toolbar
+    // popup shown when user clicks button on tool bar 
+    // size must be between 25x25 and 800x600 pixels.
+    // also by action.setPopup()
+    "default_popup": "default_popup.html" 
 
   }
 
