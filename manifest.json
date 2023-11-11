@@ -28,7 +28,10 @@
     // ,"default_popup": "default_popup.html"
   },
   // "permissions": ["activeTab", "scripting"],
-  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"], //https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/api-samples/declarativeNetRequest/url-blocker
+  "permissions": [
+    "storage",
+    "declarativeNetRequest", 
+    "declarativeNetRequestFeedback"], //https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/api-samples/declarativeNetRequest/url-blocker
   "background":{
     "service_worker": "background.js"
   }
