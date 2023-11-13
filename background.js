@@ -6,10 +6,19 @@ chrome.action.onClicked.addListener((tab) => {
   });
 });
 
-chrome.storage.local.set({ key: value }).then(() => {
-  console.log("Value is set");
-});
+// chrome.action.onClicked.addListener((tab) => {
+//   console.log("H");
+//   chrome.storage.local.set({ key: value }).then(() => {
+//     console.log("Value is set");
+//   });
+//   chrome.storage.local.get(["key"]).then((result) => {
+//     console.log("Value currently is " + result.key);
+//   });
 
-chrome.storage.local.get(["key"]).then((result) => {
-  console.log("Value currently is " + result.key);
-});
+// });
+
+// chrome.storage.local.set({ key: value }).then(() => {
+  // console.log("Value is set");
+// });
+
+

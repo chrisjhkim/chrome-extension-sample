@@ -19,4 +19,4 @@ chrome.declarativeNetRequest.onRuleMatchedDebug.addListener((e) => {
   console.log(msg);
 });
 
-console.log('Service worker started.');
+// console.log('Service worker started.');
